@@ -44,6 +44,7 @@ redirect_stderr=true
 
 stdout_logfile=/PATH_TO_PROJECT/storage/logs/worker.log 
 EOF
+sudo service supervisor restart
 
 
 
@@ -51,6 +52,7 @@ EOF
 echo " add job to crontab"
 
 echo  " * * * * * php /var/www/medvoice/artisan schedule:run >> /dev/null 2>&1 " >> /etc/crontab
+sudo service crontab restart
 
 
 
