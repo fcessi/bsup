@@ -2,6 +2,8 @@
 
 > ***this project is compatible on ubuntu 20.04 LTS***
 
+> ***workflow for this project is available on my-pipeline.yaml ***
+
 ## Running project
 clone  project from github repository
 
